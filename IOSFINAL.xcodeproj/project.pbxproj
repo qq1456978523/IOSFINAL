@@ -12,6 +12,11 @@
 		499EFC0E22BFCB6300A10AFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499EFC0C22BFCB6300A10AFD /* Main.storyboard */; };
 		499EFC1022BFCB6300A10AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499EFC0F22BFCB6300A10AFD /* Assets.xcassets */; };
 		499EFC1322BFCB6300A10AFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499EFC1122BFCB6300A10AFD /* LaunchScreen.storyboard */; };
+		499EFC1B22BFCD5F00A10AFD /* MarvelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499EFC1A22BFCD5F00A10AFD /* MarvelCollectionViewCell.swift */; };
+		499EFC1D22BFCE0B00A10AFD /* MarvelimageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499EFC1C22BFCE0B00A10AFD /* MarvelimageCollectionViewController.swift */; };
+		499EFC2122BFCEB700A10AFD /* heroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499EFC2022BFCEB700A10AFD /* heroDetailViewController.swift */; };
+		499EFC2322BFCEE300A10AFD /* Marvelhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499EFC2222BFCEE300A10AFD /* Marvelhero.swift */; };
+		499EFC2522BFCF4200A10AFD /* MarvelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499EFC2422BFCF4200A10AFD /* MarvelTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		499EFC0F22BFCB6300A10AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		499EFC1222BFCB6300A10AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		499EFC1422BFCB6300A10AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499EFC1A22BFCD5F00A10AFD /* MarvelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCollectionViewCell.swift; sourceTree = "<group>"; };
+		499EFC1C22BFCE0B00A10AFD /* MarvelimageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelimageCollectionViewController.swift; sourceTree = "<group>"; };
+		499EFC2022BFCEB700A10AFD /* heroDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heroDetailViewController.swift; sourceTree = "<group>"; };
+		499EFC2222BFCEE300A10AFD /* Marvelhero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvelhero.swift; sourceTree = "<group>"; };
+		499EFC2422BFCF4200A10AFD /* MarvelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +64,14 @@
 		499EFC0722BFCB6300A10AFD /* IOSFINAL */ = {
 			isa = PBXGroup;
 			children = (
+				499EFC2422BFCF4200A10AFD /* MarvelTableViewController.swift */,
 				499EFC0822BFCB6300A10AFD /* AppDelegate.swift */,
 				499EFC0A22BFCB6300A10AFD /* ViewController.swift */,
 				499EFC0C22BFCB6300A10AFD /* Main.storyboard */,
+				499EFC1A22BFCD5F00A10AFD /* MarvelCollectionViewCell.swift */,
+				499EFC1C22BFCE0B00A10AFD /* MarvelimageCollectionViewController.swift */,
+				499EFC2022BFCEB700A10AFD /* heroDetailViewController.swift */,
+				499EFC2222BFCEE300A10AFD /* Marvelhero.swift */,
 				499EFC0F22BFCB6300A10AFD /* Assets.xcassets */,
 				499EFC1122BFCB6300A10AFD /* LaunchScreen.storyboard */,
 				499EFC1422BFCB6300A10AFD /* Info.plist */,
@@ -135,7 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499EFC2122BFCEB700A10AFD /* heroDetailViewController.swift in Sources */,
 				499EFC0B22BFCB6300A10AFD /* ViewController.swift in Sources */,
+				499EFC2522BFCF4200A10AFD /* MarvelTableViewController.swift in Sources */,
+				499EFC1D22BFCE0B00A10AFD /* MarvelimageCollectionViewController.swift in Sources */,
+				499EFC2322BFCEE300A10AFD /* Marvelhero.swift in Sources */,
+				499EFC1B22BFCD5F00A10AFD /* MarvelCollectionViewCell.swift in Sources */,
 				499EFC0922BFCB6300A10AFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
